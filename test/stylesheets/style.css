@@ -1,0 +1,39 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: #88D389;
+  font-family: Helvetica, sans-serif;
+  padding: 5%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 5px;
+}
+
+a {
+  color: #933;
+}
+
+a:hover {
+  color: #600;
+}
+
+.main {
+  margin: 0 auto 20px;
+  padding: 20px 40px;
+  border: 4px solid #AAA;
+  background: #EEE;
+}
+
+.main h1 {
+  color: #000;
+  font-weight: bold;
+}
+
+.main .description {
+  color: #444;
+}
+
+.main ul {
+  padding: 0 20px;
+}

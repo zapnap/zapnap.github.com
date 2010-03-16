@@ -1,0 +1,25 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: #88D389;
+  font-family: Helvetica, sans-serif;
+  padding: 5%;
+}
+
+.info {
+  margin: 0 auto;
+  padding: 20px 40px;
+  border: 4px solid #AAA;
+  background: #EEE;
+}
+
+.info h1 {
+  color: #FFF;
+  background: #933;
+  font-weight: bold;
+  nick: is-awesome;
+}
+
+.info .description {
+  color: #600;
+}
