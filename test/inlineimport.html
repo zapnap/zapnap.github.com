@@ -1,0 +1,21 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
+<head>
+<title>Valid HTML with Inline Stylesheet (with direct @import)</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<link href="stylesheets/style.css" media="screen" rel="stylesheet" type="text/css"/>
+<style type="text/css">
+  @import url("/test/stylesheets/style.css");
+  @import url("/test/stylesheets/badstyle.css");
+</style>
+</head>
+
+<body>
+  <div class="main">
+    <h1>Valid HTML with Inline Stylesheet (with direct @import)</h1>
+    <div class="description">This document has an inline stylesheet. And that
+    inline stylesheet has an @import statement in it. Woohoo!</div>
+  </div>
+</body>
+</html>
