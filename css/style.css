@@ -1,0 +1,71 @@
+body { 
+  margin: 0 auto;
+  padding: 0; 
+  background: #111 url('../img/dark.png') repeat;
+  color: #999;
+  font-family: Helvetica, Arial, sans-serif; 
+  line-height: 1.4;
+  font-size: 16px;
+}
+.content, .title, .footer {
+  width: 650px; 
+  text-align: left; 
+  margin: 0 auto; 
+  padding: 0;
+}
+.title h1 {
+  padding-top: 20px;
+  margin-top: 0;
+  border-top: 20px solid #333; 
+}
+h1 { font-size: 36px; }
+h2, h3, h4 { font-size: 24px; }
+h1, h2, h3, h4 { 
+  padding: 0; 
+  margin: 10px 0 10px 0; 
+  color: #fff;
+  font-family: 'Aldrich', sans-serif;
+}
+h2, h3, h4 {
+  border-bottom: 2px solid #9D9;
+}
+ul {
+  list-style-type: none;
+  margin: 0 0 20px;
+  padding: 0;
+}
+li {
+  border: none;
+  margin-bottom: 2px;
+}
+ul.portfolio {
+  font-size: 12px;
+}
+a {
+  color: #ddd;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+ul.portfolio a {
+  font-size: 16px;
+  margin-right: 10px;
+}
+.about, .tech {
+  margin-bottom: 30px;
+}
+.footer {
+  margin-top: 20px;
+  padding-top: 30px;
+  padding-bottom: 5px;
+  background-color: #333;
+  font-size: 12px;
+  text-align: center;
+  color: #666;
+}
+.tech {
+  font-size: 12px;
+  font-weight: bold;
+  color: #ccc;
+}
