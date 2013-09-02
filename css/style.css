@@ -44,6 +44,20 @@ li {
 ul.portfolio {
   font-size: 12px;
 }
+ul.techstack {
+  margin-bottom: 30px;
+}
+ul.techstack li {
+  color: #ccc;
+  font-size: 12px;
+  display: inline;
+  margin-right: 3px;
+  padding: 3px 5px;
+  background: #333;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+}
 a {
   color: #ddd;
   text-decoration: none;
@@ -66,9 +80,4 @@ ul.portfolio a {
   font-size: 12px;
   text-align: center;
   color: #666;
-}
-.tech {
-  font-size: 12px;
-  font-weight: bold;
-  color: #ccc;
 }
