@@ -1,4 +1,4 @@
-body { 
+body {
   margin: 0 auto;
   padding: 0; 
   background: #111 url('../img/dark.png') repeat;
@@ -68,6 +68,11 @@ a:hover {
 ul.portfolio a {
   font-size: 16px;
   margin-right: 10px;
+}
+ul.portfolio del {
+  font-size: 16px;
+  margin-right: 10px;
+  color: #aaa;
 }
 .about, .tech {
   margin-bottom: 30px;
