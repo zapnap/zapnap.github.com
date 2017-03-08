@@ -77,6 +77,9 @@ ul.portfolio del {
 .about, .tech {
   margin-bottom: 30px;
 }
+.about strong {
+  color: #ddd;
+}
 .footer {
   margin-top: 30px;
   padding-top: 30px;
